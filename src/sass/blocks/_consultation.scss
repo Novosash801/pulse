@@ -1,0 +1,39 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url('../../img/bg2.jpg') center (center/cover) no-repeat;
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #0D0D0D;
+        text-transform: uppercase;
+        &__left {
+            color: #ffffff;
+            font-size: 36px;
+            text-align: left;
+        }
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .error {
+        border: 3px solid red;
+    }
+    label.error {
+        color: #fff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .valid {
+        border: 3px solid rgb(36, 201, 138);
+    }
+    label.valid {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
