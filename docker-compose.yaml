@@ -1,0 +1,12 @@
+version: '2.4'
+
+services:
+  
+  app1:
+    image: gulp:local
+    build:
+      context: /Users/novoleg/git/tmp/pulse
+      network: host
+    ports:
+      - 12345:3000
+      - 12346:3006
